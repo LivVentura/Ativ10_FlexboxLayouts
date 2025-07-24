@@ -35,3 +35,33 @@
 
 /* NÃO ALTERE DAQUI PRA CIMA */
 /* ESCREVA SEU CÓDIGO ABAIXO */
+#layout{
+  display: flex;
+  width: 800px;
+  height: 550px;
+  background-color: #999;
+  flex-direction: column;
+}
+.Di1{
+  display:flex;
+  background-color: rgb(151, 100, 199);
+  flex: 2;
+}
+
+.Di2{
+  display:flex;
+  background-color:rgb(110, 50, 179);
+  flex: 1;
+}
+.Di11{
+  display:flex;
+  flex-direction:row;
+  background-color:rgb(101, 15, 177);
+  flex: 2; 
+}
+.Di12{
+  display:flex;
+  flex-direction:row;
+  background-color:rgb(94, 63, 121);
+  flex: 1; 
+}
