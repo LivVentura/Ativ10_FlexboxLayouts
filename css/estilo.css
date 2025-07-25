@@ -38,7 +38,7 @@
 #layout{
   display: flex;
   width: 800px;
-  height: 550px;
+  height: 500px;
   background-color: #999;
   flex-direction: column;
 }
@@ -50,18 +50,18 @@
 
 .Di2{
   display:flex;
-  background-color:rgb(110, 50, 179);
+  background-color:rgb(112, 38, 141);
   flex: 1;
 }
 .Di11{
   display:flex;
   flex-direction:row;
-  background-color:rgb(101, 15, 177);
+  background-color:rgb(182, 32, 202);
   flex: 2; 
 }
 .Di12{
   display:flex;
   flex-direction:row;
-  background-color:rgb(94, 63, 121);
+  background-color:rgb(226, 150, 236);
   flex: 1; 
 }
