@@ -80,3 +80,64 @@
 #DArtigo2{
   background-color: rgb(198, 97, 218);
 }
+
+#layout2{
+  display: flex;
+  width: 1000px;
+  height: 500px;
+  background-color: #999;
+  flex-direction: column;
+}
+.DivBty{
+  display: flex;
+  flex-direction: row;
+  flex:1;
+  background-color: rgb(236, 147, 194);
+}
+.DivFlor{
+  display: flex;
+  flex-direction: row;
+  flex:3;
+  background-color: #ca70a7;
+}
+.DivArv{
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  background-color: #b40078;
+}
+#divmenu{
+  display:flex;
+  background-color:rgb(255, 207, 241);
+  flex: 1;
+  padding: 10px;
+}
+#divcontent{
+  background-color: #ca70a7;
+  flex: 2;
+}
+#divad{
+  background-color: #e659b7;
+  flex: 1;
+}
+#divmenu ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  padding: 25px;
+}
+
+#divmenu li{
+  background-color: #fd7fec;
+  color: #030000;
+  padding: 2px 6px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  width: auto;
+}
+#divmenu h2{
+  margin-bottom: 10px;
+}
