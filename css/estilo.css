@@ -50,18 +50,33 @@
 
 .Di2{
   display:flex;
-  background-color:rgb(112, 38, 141);
+  background-color:rgb(126, 0, 175);
   flex: 1;
 }
 .Di11{
   display:flex;
-  flex-direction:row;
+  flex-direction:column;
   background-color:rgb(182, 32, 202);
   flex: 2; 
 }
 .Di12{
   display:flex;
   flex-direction:row;
-  background-color:rgb(226, 150, 236);
+  background-color:rgb(173, 1, 196);
   flex: 1; 
+}
+.DivC{
+  display:flex;
+  flex-direction: row;
+  background-color:rgb(214, 159, 223);
+  flex: 2;
+}
+.DivA{
+  display:flex;
+  background-color:rgb(170, 90, 190);
+  flex-direction: column;
+  flex: 1;
+}
+#DArtigo2{
+  background-color: rgb(198, 97, 218);
 }
