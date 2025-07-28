@@ -37,7 +37,7 @@
 /* ESCREVA SEU CÓDIGO ABAIXO */
 #layout{
   display: flex;
-  width: 800px;
+  width: 1000px;
   height: 500px;
   background-color: #999;
   flex-direction: column;
@@ -115,6 +115,7 @@
 #divcontent{
   background-color: #ca70a7;
   flex: 2;
+  flex-direction:column;
 }
 #divad{
   background-color: #e659b7;
@@ -126,18 +127,83 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
-  gap: 10px;
-  padding: 25px;
+  gap: 5px;
+  padding: 15px;
 }
 
 #divmenu li{
   background-color: #fd7fec;
   color: #030000;
-  padding: 2px 6px;
+  padding: 4px 10px;
   border-radius: 8px;
-  font-size: 0.8rem;
-  width: auto;
+  font-size: 15px;
 }
 #divmenu h2{
   margin-bottom: 10px;
+}
+#divcontent p{
+  font-size: 12px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  width: 450px;
+  
+}
+
+#layout3{
+  display: flex;
+  width: 1000px;
+  height: 700px;
+  background-color: #ffffff;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.Div1{
+  display: flex;
+  width: 300px;
+  height: 150px;
+  flex:1;
+  background-color:#7a0000;
+  flex-direction: column;
+}
+.Div2{
+  display: flex;
+  width: 300px;
+  height: 300px;
+  flex:1;
+  background-color: #9c5353;
+  flex-direction: column;
+}
+.Div3{
+  display: flex;
+  width: 250px;
+  height: 100px;
+  flex:1;
+  background-color: #f83636;
+  flex-direction: column;
+}
+.Div4{
+  display: flex;
+  width: 300px;
+  height: 400px;
+  flex:1;
+  background-color: #8d3535;
+  flex-direction: column;
+}
+.Div5{
+  display: flex;
+  width: 300px;
+  height: 500px;
+  flex:1;
+  background-color: #d83d3d;
+  flex-direction: column;
+}
+.Div6{
+  display: flex;
+  width: 300px;
+  height: 140px;
+  flex:1;
+  background-color: #4e0000;
+  flex-direction: column;
 }
